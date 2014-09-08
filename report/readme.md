@@ -1,7 +1,5 @@
 # Master's Thesis / Report
 
-[![MIT License](http://img.shields.io/badge/license-CC_BY--NC-red.svg)](http://creativecommons.org/licenses/by-nc/4.0/)
-
 This directory contains the source code for my master's thesis report.  
 The report is written and typeset in LaTeX using some extra software.
 

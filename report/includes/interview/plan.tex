@@ -1,0 +1,136 @@
+\chapter{Interview Plan}\label{app:interview-plan}
+The interview plan is based on \citet{jacobsen1993intervju, annika1993intervju}.
+
+\textit{Interviewer} is \author, student in Information Technology (IT) at Linköping University, performing a master's thesis in relation to regression testing. \textit{Respondent} is a software developer working in the project context for the thesis work. The interviewer and respondent are employees of the same company but have never been working together on the same project. Preceding the interview, a meeting between the interviewer and respondent has been held, where the current test setup was explained and the perceived problems discussed.
+ 
+The main \textit{purpose} of this interview is to determine if there are any perceived problems with the current test setup and if so, which type of testing is deemed problematic. The other purpose is to allow for questions regarding the current test setup, improvement work, and knowledge of regression testing techniques. The interview is \textit{semi-structured}, which means that the interview questions are used as a guideline, rather than not allowing any diversion from the questions.
+  
+The \textit{location} of the interview will be a meeting room of the company, familiar to the respondent, at 14:00 on a Monday, for the duration of an hour. The meeting room has a neutral and sparsely decorated environment, with eight chairs and a round table. Windows have been covered so as to ensure that no visible events occurring outside may be of a distracting nature. 
+
+The \textit{background information} for the interview is the information provided in the background of the thesis, as described in section~\ref{chap:background}. From this information, and in relation to the problem description, a set of questions have been identified. These questions are listed in the following section, grouped by their respective question areas and in the order they will be asked during the interview, along with follow-up questions.
+
+The interview will be \textit{recorded} in its entirety for the sake of later being able to include the transcription in the report. While the interview is progressing, notes will be taken, which will help in asking relevant follow-up questions. The recording will be transcribed and the respondent will be asked if the transcription is correct or not before it is included in the report. Statements regarded as incorrect will either be changed according to the respondents clarifications or excluded from the report. The communication after the interview will be handled using internal company email correspondence. If there is a need to ask follow-up or clarifying questions after the interview (for example, if certain parts of the recording is of low audio quality), this will be handled in the same manner. Any changes or additions after the interview will be clearly marked in the transcription. See appendix~\vref{app:interview-transcription} for the transcription of the interview.
+
+Regarding potential \textit{ethical issues}, the respondent's identity will be kept anonymous. In case any sensitive details may be part of the interview, the respondent will be asked whether any details need to be censored. This will be part of the respondent's review of the transcribed interview dialogue. Apart from reviewing the transcription, the respondent will have no possibility to affect the final results. The respondent will not be able to review the interview questions before the actual interview and no payment will be given for taking part in the interview. After the thesis work has been completed, the respondent will be able to read the final report for which the interview was performed. A company-wide presentation of the thesis work will also be held, at which the respondent is free to participate.
+
+The \textit{expected result} of the interview is to be able to further specify the perceived problems with regression testing in the project and, in turn, help with formulating the problem description of the thesis. The secondary result is to gain a better understanding of the current test setup, improvement work on the test suites, and knowledge of regression testing techniques.
+
+\tocless\section{Interview Questions}\label{app:interview-questions}
+In the following section, the original interview questions are given in Swedish. These are the questions which were asked during the interview. For readers who cannot understand Swedish, the questions have been freely translated to English in the section following the original questions.
+
+\vspace{1ex}
+\tocless\subsection{Original Questions (Swedish)}
+The following questions are the original questions asked during the interview. They are available in their original form as follows and available freely translated to English in the following section.
+x
+\vspace{1ex}
+\begin{otherlanguage}{swedish}
+\begin{enumerate}
+  \item\label{itm:int:role} Skulle du i grova drag kunna förklara din roll i projektet?
+  \begin{enumerate}
+    \item\label{itm:int:role:a} Hur kommer arbetet med testningen in i detta arbete?
+    \item\label{itm:int:role:b} Skulle du kunna förklara hur detta praktiskt fungerat?
+    \item\label{itm:int:role:c} Hur många är ni som arbetar med vidareutveckling av testerna?
+    \item\label{itm:int:role:d} Arbetar ni efter någon speciell utvecklingsmetod eller tankesätt?
+    \begin{enumerate}
+      \item\label{itm:int:role:d:i} Har testerna tagits fram enligt denna metod eller tankesätt?
+      \item\label{itm:int:role:d:ii} Hur tycker du att det har fungerat att arbeta på det sättet?
+    \end{enumerate}
+    \item[$(*)$] Summera och fråga om utvecklingsmetoder rörande testningen.
+  \end{enumerate}
+  
+  \item\label{itm:int:setup} Skulle du kunna förklara hur nuvarande test setup ser ut?
+  \begin{enumerate}
+    \item\label{itm:int:setup:a} Ser du några problem med hur er test setup ser ut?
+    \item\label{itm:int:setup:b} Varför upplevs detta som problem med er test setup?
+    \item\label{itm:int:setup:c} Vilka olika typer av tester använder ni i projektet?
+    \item\label{itm:int:setup:d} Brukar er setup förändras något eller är den fastställd?
+    \item[$(*)$] Summera och fråga om nuvarande test setup i projektet.
+  \end{enumerate}
+  
+  \item\label{itm:int:test} Kan du beskriva hur en utvecklare bör testa sina ändringar i projektet?
+  \begin{enumerate}
+    \item\label{itm:int:test:a} Vad tror du skulle kunna förbättras i arbetsprocessen?
+    \item\label{itm:int:test:b} Upplever du att testningen tar för lång tid?
+    \item\label{itm:int:test:c} Vilka typer av tester är det som tar för lång tid?
+    \item\label{itm:int:test:d} Varför är det problem att det tar för lång tid?
+    \item\label{itm:int:test:e} Upplever utvecklarna att tiden för testerna är problematisk?
+    \item[$(*)$] Summera och fråga om problemen rörande testningen.
+  \end{enumerate}
+  
+  \item\label{itm:int:improve} Kan du förklara hur ni arbetat med att förbättra era test suites?
+  \begin{enumerate}
+    \item\label{itm:int:improve:a} Har du några tankar eller idéer på förbättringar som skulle kunna göras för att förbättra era test suites?
+    \item\label{itm:int:improve:b} Känner du till några verktyg eller metoder som skulle kunnas användas för att förbättra testningen?
+    \item\label{itm:int:improve:c} Har ni arbetat något med att använda urval av testfall för att det tar för lång tid att köra alla tester?
+    \begin{enumerate}
+      \item\label{itm:int:improve:c:i} I vilka fall har urval av testfall gjorts?
+      \item\label{itm:int:improve:c:ii} Hur har dessa urval av testfall genomförts?
+      \item\label{itm:int:improve:c:iii} Hur tror du att urval av testfall kan förbättra testningen?
+    \end{enumerate}
+    \item\label{itm:int:improve:d} Har ni arbetat något med att rangordna eller prioritera testfall?
+    \begin{enumerate}
+      \item\label{itm:int:improve:d:i} Görs det någon prioritering av testfall i dagsläget?
+      \item\label{itm:int:improve:d:ii} Vad skulle vara vettigt att basera en sådan prioritering på?
+      \item\label{itm:int:improve:d:iii} Hur tror du att prioritering kan förbättra testningen?
+    \end{enumerate}
+    \item[$(*)$]	 Summera och fråga om arbete med förbättringar i testningen.
+  \end{enumerate}
+\end{enumerate}
+\end{otherlanguage}
+
+\tocless\subsection{Translated Questions (English)}
+The following questions are free translations of the original Swedish questions asked during the interview, as presented in the previous section.
+
+\vspace{1ex}
+\begin{enumerate}
+  \item Could you broadly explain your role in the project?
+  \begin{enumerate}
+    \item How is work on testing a part of your work?
+    \item Could you explain how this works in practice?
+    \item How many are you who work actively with continued development of the tests?
+    \item Do you work according to a development methodology or mindset?
+    \begin{enumerate}
+      \item Have the tests been developed according to this methodology or mindset?
+      \item How do you think it has worked out to work this way?
+    \end{enumerate}
+    \item[$(*)$] Summarize and ask about development methodologies regarding the testing.
+  \end{enumerate}
+  
+  \item Could you explain the current test setup?
+  \begin{enumerate}
+    \item Do you see any problems with the current test setup?
+    \item Why do you see this as a problem with your test setup?
+    \item Which types of tests are your using in the project?
+    \item Do your test setup tend to change or is it fixed?
+    \item[$(*)$] Summarize and ask about the current test setup in the project.
+  \end{enumerate}
+  
+  \item Could you describe how a developer should test ones changes in the project?
+  \begin{enumerate}
+    \item What do you think could be improved in the work process?
+    \item Do you experience that the testing is taking too long?
+    \item Which types of tests are taking too long?
+    \item Why is it a problem that it is taking to long?
+    \item Do the developers experience a problem with the test time?
+    \item[$(*)$] Summarize and ask about the problems regarding the testing.
+  \end{enumerate}
+  
+  \item Could you explain how you have worked with improving your test suites?
+  \begin{enumerate}
+    \item Do you have any thoughts or ideas on improves which could be done to improve your test suites?
+    \item Do you know any tools or methods which could be used to improve the testing?
+    \item Have you worked with test case selection because it takes too long to execute all tests?
+    \begin{enumerate}
+      \item In which cases have test case selection been performed?
+      \item How have test case selection been performed?
+      \item How do you think that test case selection can improve the testing?
+    \end{enumerate}
+    \item Have you worked with ordering or prioritization of test cases?
+    \begin{enumerate}
+      \item Is any prioritization of test cases being done today?
+      \item What would be sensible to use for such a prioritization?
+      \item How do you think that prioritization can improve the testing?
+    \end{enumerate}
+    \item[$(*)$]	 Summarize and ask about work on improvements of the testing.
+  \end{enumerate}
+\end{enumerate}

@@ -13,8 +13,8 @@ If you're looking for final artifacts, you can download the [report][report].
 In case space is an issue, there is also a [minified version][report-min] available.
 
 ```
-08dacc8b8f514abe20861bafe612b1d1c92f9710  thesis.pdf
-59d158bfa467d74fba0b1ad2ab214de67b505fa0  thesis.min.pdf
+d96fd0af6199f7d25f64d1d255a4b408525ced47  thesis.pdf
+f6ceddc0cc52f14d3ffbd46449f5740502a44862  thesis.min.pdf
 ```
 
 ## Compilation
@@ -50,7 +50,7 @@ Optionally, the output thesis report can be optimized as described below.
 ## Optimization
 
 The minified report has had its file size optimized using [pdfsizeopt][pdfsizeopt].  
-File size reduction of ~ 43.3% (376.8 KiB) versus the original version. 
+File size reduction of ~ 43.3% (376.7 KiB) versus the original version. 
 
 The following parameters were used when invoking pdfsizeopt.  
 `--use-pngout=true --use-jbig2=true --use-multivalent=true`

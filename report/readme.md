@@ -17,6 +17,9 @@ cb135a7e9330e579aa043468e722b16283112507  thesis.pdf
 d9c6e638dadaac85b790b7dc70e44e910e9be58d  thesis.min.pdf
 ```
 
+The report was [published][published] by LiU Electronic Press on September 19, 2014.
+
+
 ## Compilation
 
 The report is compiled using pdfLaTeX with BibTeX and MakeIndex.  
@@ -63,6 +66,7 @@ The following parameters were used when invoking pdfsizeopt.
 [templates]: http://www.ida.liu.se/edu/ugrad/thesis/templates/index.en.shtml
 [report]: thesis.pdf
 [report-min]: thesis.min.pdf
+[published]: http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-110676
 [texpad]: https://www.texpadapp.com
 [mactex]: https://tug.org/mactex
 [minted]: https://github.com/gpoore/minted

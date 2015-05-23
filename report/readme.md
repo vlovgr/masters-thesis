@@ -1,7 +1,7 @@
 # Master's Thesis / Report
 
 This directory contains the source code for my master's thesis report.  
-The report is written and typeset in LaTeX using some extra software.
+The report is written and typeset in [LaTeX][latex] using some extra software.
 
 - Figures are vector graphics created using the [draw.io][draw.io] service.
 - All plots are generated in LaTeX using the [pgfplots][pgfplots] package. 
@@ -58,6 +58,7 @@ File size reduction of ~ 43.2% (376.9 KiB) versus the original version.
 The following parameters were used when invoking pdfsizeopt.  
 `--use-pngout=true --use-jbig2=true --use-multivalent=true`
 
+[latex]: http://www.latex-project.org
 [draw.io]: https://www.draw.io
 [pgfplots]: http://pgfplots.sourceforge.net
 [front]: includes/university/front.tex

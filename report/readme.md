@@ -17,7 +17,10 @@ cb135a7e9330e579aa043468e722b16283112507  thesis.pdf
 d9c6e638dadaac85b790b7dc70e44e910e9be58d  thesis.min.pdf
 ```
 
-The report was [published][published] by LiU Electronic Press on September 19, 2014.
+## Highlights
+
+**2014-09-19** — Report was [published][published] by the university electronic press.  
+**2015-05-19** — Awarded [best master's thesis 2014][best-thesis] at the university.
 
 
 ## Compilation
@@ -68,6 +71,7 @@ The following parameters were used when invoking pdfsizeopt.
 [report]: thesis.pdf
 [report-min]: thesis.min.pdf
 [published]: http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-110676
+[best-thesis]: http://www.student.liu.se/nyhetsarkiv/1.635568?l=sv
 [texpad]: https://www.texpadapp.com
 [mactex]: https://tug.org/mactex
 [minted]: https://github.com/gpoore/minted

@@ -21,7 +21,8 @@ d9c6e638dadaac85b790b7dc70e44e910e9be58d  thesis.min.pdf
 
 **2014-09-19** — Report was [published][published] by the university electronic press.  
 **2015-05-19** — Awarded [best master's thesis 2014][best-thesis] at the university.  
-**2015-05-25** — Featured on the IDA website; in [swedish][best-thesis-ida] and [english][best-thesis-ida-en].
+**2015-05-25** — Featured on the IDA website; in [swedish][best-thesis-ida] and [english][best-thesis-ida-en].  
+**2015-05-27** — An [article][best-thesis-dfs] from Dataföreningen on this year's winners.
 
 ## Compilation
 
@@ -74,6 +75,7 @@ The following parameters were used when invoking pdfsizeopt.
 [best-thesis]: http://www.student.liu.se/nyhetsarkiv/1.635568?l=sv
 [best-thesis-ida]: http://www.ida.liu.se/department/news/2015.sv.shtml#130
 [best-thesis-ida-en]: http://www.ida.liu.se/department/news/2015.en.shtml#130
+[best-thesis-dfs]: https://www.dfs.se/jubileumsglans-arets-examensarbete
 [texpad]: https://www.texpadapp.com
 [mactex]: https://tug.org/mactex
 [minted]: https://github.com/gpoore/minted

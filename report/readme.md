@@ -75,7 +75,7 @@ The following parameters were used when invoking pdfsizeopt.
 [best-thesis]: http://www.student.liu.se/nyhetsarkiv/1.635568?l=sv
 [best-thesis-ida]: http://www.ida.liu.se/department/news/2015.sv.shtml#130
 [best-thesis-ida-en]: http://www.ida.liu.se/department/news/2015.en.shtml#130
-[best-thesis-dfs]: https://www.dfs.se/jubileumsglans-arets-examensarbete
+[best-thesis-dfs]: https://dfs.se/jubileumsglans-at-arets-examensarbete
 [texpad]: https://www.texpadapp.com
 [mactex]: https://tug.org/mactex
 [minted]: https://github.com/gpoore/minted
